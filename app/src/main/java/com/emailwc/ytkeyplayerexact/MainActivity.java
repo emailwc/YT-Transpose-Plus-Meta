@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
     private String extractVideoId(String input) {
         if (input == null) return null;
         if (input.matches("[a-zA-Z0-9_-]{11}")) return input;
-        Pattern p = Pattern.compile("(?:v=|\/embed\/|\/shorts\/|youtu\.be\/)([a-zA-Z0-9_-]{11})");
+        Pattern p = Pattern.compile("(?:v=|/embed/|/shorts/|youtu\\.be/)([a-zA-Z0-9_-]{11})");
         Matcher m = p.matcher(input);
         if (m.find()) return m.group(1);
         return input;
