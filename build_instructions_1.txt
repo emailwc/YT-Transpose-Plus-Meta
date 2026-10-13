@@ -1,0 +1,6 @@
+OPTION A FINAL - Animated waveform + coordinated purple/cyan bg + unified dark chrome buttons cyan/purple edge alternating
+Path: /storage/emulated/0/BWJam Songs = Browser > Internal memory > BWJam Songs
+No bottom matrix/path windows
+Highlight: purple #a855f7 + cyan #06b6d4
+Logo 360px, player 360x90, buttons 320x88 wide
+Ready for Android Studio Build > Build APKs
